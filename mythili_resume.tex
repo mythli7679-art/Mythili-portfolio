@@ -1,0 +1,101 @@
+% One-page ATS-friendly LaTeX resume for P Mythili
+% Compile with pdfLaTeX
+\documentclass[11pt,a4paper]{article}
+\usepackage[left=0.56in,right=0.56in,top=0.52in,bottom=0.52in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{setspace}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setstretch{1.03}
+\urlstyle{same}
+\sloppy
+\emergencystretch=2em
+
+\definecolor{dark}{HTML}{111111}
+\titleformat{\section}{\large\bfseries\color{dark}}{}{0em}{}[\vspace{0.08em}\titlerule\vspace{0.15em}]
+\titlespacing*{\section}{0pt}{5pt}{4pt}
+\setlist[itemize]{leftmargin=*, itemsep=1.6pt, topsep=1.2pt, parsep=0pt, partopsep=0pt}
+
+\newcommand{\resumeItem}[1]{\item \small #1}
+\newcommand{\headerSep}{\,|\,}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries P Mythili}\\[3pt]
+    {\large\bfseries Software Developer}\\[2pt]
+
+    \small
+    \href{mailto:mythli7679@gmail.com}{mythli7679@gmail.com}
+    \headerSep{} +91 8056818192\\[2pt]
+
+    \href{https://www.linkedin.com/in/mythili-ponnusamy}{linkedin.com/in/mythili-ponnusamy}
+    \headerSep{}
+    \href{https://github.com/mythili293}{github.com/mythili293}
+\end{center}
+
+\section*{Summary}
+Recent Computer Science and Engineering graduate with practical experience in software development, inventory management systems, and AI-integrated applications. Completed a 5-month industrial internship at Central Manufacturing Technology Institute (CMTI), Bengaluru, developing production-grade solutions using \textbf{Python, Flutter, Dart, SQL, Supabase, and Next.js}.
+
+\section*{Technical Skills}
+\textbf{Languages:} Python, SQL (PostgreSQL, MySQL), Dart, JavaScript\\
+\textbf{Frontend \& Mobile:} Flutter, Next.js, HTML5, CSS3, JavaScript (ES6+)\\
+\textbf{Backend \& Cloud:} Supabase, Vercel, PostgreSQL, RESTful APIs\\
+\textbf{Tools \& Platforms:} Git, GitHub, VS Code\\
+\textbf{Core CS \& Emerging Tech:} Object Oriented Programming (OOPs), DBMS, Data Structures, Software Engineering, Artificial Intelligence, Generative AI
+
+\section*{Experience}
+
+\textbf{Software Development Intern — Central Manufacturing Technology Institute (CMTI)} \hfill \textit{Jan 2026 -- May 2026}
+\begin{itemize}
+    \resumeItem{Developed a centralized \textbf{Laboratory Asset and Inventory Management System} to track high-value laboratory assets and real-time stock levels across multiple departments.}
+    \resumeItem{Implemented a full-stack architecture featuring \textbf{inventory management, secure issue-return tracking, and current location monitoring modules}.}
+    \resumeItem{Designed \textbf{interactive analytical dashboards, role-based user privileges}, and automatic generation of comprehensive audit history reports.}
+    \resumeItem{Integrated reliable image upload capabilities and structured efficient \textbf{relational data mapping using Supabase and PostgreSQL}.}
+\end{itemize}
+
+\section*{Projects}
+
+\textbf{AI Integrated Smart Construction Ecosystem (BuildNest)}
+\hfill
+\textit{Next.js, Supabase, Vercel}
+\begin{itemize}
+    \resumeItem{Engineered an AI-powered web platform aggregating construction material vendors, rental owners, engineers, and clients into a synchronized business ecosystem.}
+    \resumeItem{Integrated an \textbf{AI-based construction cost estimation engine} to output dynamic budget recommendations and optimized cost-benefit breakdowns.}
+    \resumeItem{Designed \textbf{secured role-specific user dashboards} with built-in real-time inquiry management channels.}
+\end{itemize}
+
+\textbf{Real-Time Fire and Smoke Detector System}
+\hfill
+\textit{Python, OpenCV, Deep Learning}
+\begin{itemize}
+    \resumeItem{Developed an automated safety surveillance system trained to identify fire and smoke hazards within streaming video feeds in real-time.}
+    \resumeItem{Applied \textbf{Computer Vision methodologies to minimize frames-per-second processing latency} while keeping strict accuracy thresholds.}
+    \resumeItem{Configured \textbf{instant alert mechanics} meant to streamline rapid hazard evaluation and notification to supervisors.}
+\end{itemize}
+
+\section*{Paper Presentations \& Certifications}
+\begin{itemize}
+    \resumeItem{\textbf{Paper Presentation} — Presented a research paper on \textbf{Artificial Intelligence Evolution} at Vellore Institute of Technology (VIT), Erode.}
+    \resumeItem{\textbf{Paper Presentation} — Presented a technical paper on \textbf{Super Computer} at Nandha College of Technology, Erode.}
+    \resumeItem{\textbf{Industrial Internship Completion Certificate} from Central Manufacturing Technology Institute (CMTI), Bengaluru.}
+    \resumeItem{\textbf{Generative AI Certification} (In Progress) covering foundations, LLMs, prompt engineering, and AI application development.}
+\end{itemize}
+
+\section*{Education}
+\textbf{M.P. Nachimuthu M. Jaganathan Engineering College, Chennimalai} \hfill \textit{2022 -- 2026}
+\begin{itemize}
+    \resumeItem{B.E. Computer Science and Engineering}
+\end{itemize}
+
+\end{document}
